@@ -17,20 +17,50 @@ html {
 }
 
 .blue-background {
-    background-color: #14213d;
-    border-color: #eaac8b;
+  background-image: linear-gradient(rgb(39, 0, 180), rgb(65, 0, 168));
+  /* background-color: #14213d; */
+    /* border-color: #eaac8b;
     border-width: 2px;
-    border-style: solid;
-    /* padding: 10px 40px 30px 40px; */
-    margin: 70px 130px 10px 130px;
+    border-style: solid; */
+    padding: 10px 40px 30px 10px; 
+    margin: 30px 130px 10px 130px;
   }
 
-  body {
+body {
     font-family: 'Roboto', sans-serif;
     color: #fa8140;
     text-align: center;
     line-height: 1;
     font-size: 16pt;
-    background: #355070;
-    
+    background: #ffffff;
   }
+
+/* Add a background color to the top navigation */
+.topnav {
+  /* background-color: #14213d; */
+  background-image: linear-gradient(rgb(39, 0, 180), rgb(65, 0, 168));
+  overflow: hidden;
+  margin: 30px 130px 0px 130px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}

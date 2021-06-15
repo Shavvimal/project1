@@ -17,7 +17,8 @@ html {
 }
 
 .blue-background {
-    background-color: #14213d;
+  background-image: linear-gradient(rgb(39, 0, 180), rgb(65, 0, 168));
+  /* background-color: #14213d; */
     /* border-color: #eaac8b;
     border-width: 2px;
     border-style: solid; */
@@ -31,12 +32,13 @@ body {
     text-align: center;
     line-height: 1;
     font-size: 16pt;
-    background: #355070;
+    background: #ffffff;
   }
 
 /* Add a background color to the top navigation */
 .topnav {
-  background-color: #14213d;
+  /* background-color: #14213d; */
+  background-image: linear-gradient(rgb(39, 0, 180), rgb(65, 0, 168));
   overflow: hidden;
   margin: 30px 130px 0px 130px;
 }

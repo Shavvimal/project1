@@ -18,3 +18,12 @@
     margin: 70px 700px 10px 700px;
   }
 
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #fa8140;
+    text-align: center;
+    line-height: 1;
+    font-size: 16pt;
+    background: #355070;
+    
+  }

@@ -6,7 +6,7 @@ html {
 }
 
 .round-border {
-    border-color: #eaac8b;
+    border-color: #ffffff;
     border-width: 3px;
     border-style: solid;
     border-radius: 50%;
@@ -28,7 +28,8 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #fa8140;
+    margin: 0;
+    color: #ffffff;
     text-align: center;
     line-height: 1;
     font-size: 16pt;

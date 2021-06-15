@@ -62,6 +62,6 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-image: linear-gradient(rgb(245, 6, 233), rgb(245, 0, 82));
   color: white;
 }

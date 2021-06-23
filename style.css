@@ -23,7 +23,7 @@ html {
     border-width: 2px;
     border-style: solid; */
     padding: 10px 40px 30px 10px; 
-    margin: 30px 130px 10px 130px;
+    margin: 30px 10vw 10px 10vw;
   }
 
 body {
@@ -41,7 +41,7 @@ body {
   /* background-color: #14213d; */
   background-image: linear-gradient(rgb(39, 0, 180), rgb(65, 0, 168));
   overflow: hidden;
-  margin: 30px 130px 0px 130px;
+  margin: 10px 10vw 0px 10vw;
 }
 
 /* Style the links inside the navigation bar */

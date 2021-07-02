@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.round-border {
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+.smaller-image {
+    width: 200px;
+}
+
+.blue-background {
+  background-image: linear-gradient(rgb(39, 0, 180), rgb(65, 0, 168));
+  /* background-color: #14213d; */
+    /* border-color: #eaac8b;
+    border-width: 2px;
+    border-style: solid; */
+    padding: 10px 40px 30px 10px; 
+    margin: 30px 10vw 10px 10vw;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1;
+    font-size: 16pt;
+    background: #ffffff;
+  }
+
+/* Add a background color to the top navigation */
+.topnav {
+  /* background-color: #14213d; */
+  background-image: linear-gradient(rgb(39, 0, 180), rgb(65, 0, 168));
+  overflow: hidden;
+  margin: 10px 10vw 0px 10vw;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-image: linear-gradient(rgb(245, 6, 233), rgb(245, 0, 82));
+  color: white;
+}

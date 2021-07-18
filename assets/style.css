@@ -1,9 +1,35 @@
-
-
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  color: white;
+  
 }
 
+h1, h2 ,h3, h4, p{
+  margin: 0;
+  padding: 0;
 
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+section.slide1 {
+  background-image: linear-gradient(to bottom right, #318aff, #b633fd);
+  height: 100vh;
+  padding-top: 400px;
+}
 
 

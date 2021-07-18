@@ -61,4 +61,7 @@ section.slide1 span{
   max-width: 40vw
 }
 
-
+#downarow{ 
+  position: absolute;
+  bottom: 0; 
+}

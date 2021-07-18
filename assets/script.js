@@ -6,3 +6,5 @@ const modalClose = (modal) => {
         modalToClose.style.display = 'none';
     }, 0);
 }
+
+

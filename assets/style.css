@@ -4,7 +4,7 @@ body {
   padding: 0;
   line-height: 1;
   box-sizing: border-box;
-  color: white;
+
   
 }
 
@@ -26,10 +26,39 @@ header {
   justify-content: space-between; 
 }
 
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  }
+
+nav ul li{
+  font-family: 'Heebo', sans-serif;
+  display: inline-block;
+  padding: 5px;
+}
+
+
 section.slide1 {
   background-image: linear-gradient(to bottom right, #318aff, #b633fd);
   height: 100vh;
   padding-top: 400px;
+  font-family: 'Heebo', sans-serif;
+  font-size:0.5 rem;
+  line-height: 40px;
+}
+
+section.slide1 span{
+  color: #ffb97a;
+}
+
+#slide-1-content-left {
+  position: absolute;
+  top:30%;
+  left:5%; 
+  max-width: 40vw
 }
 
 

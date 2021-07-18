@@ -46,8 +46,8 @@ section.slide1 {
   height: 100vh;
   padding-top: 400px;
   font-family: 'Heebo', sans-serif;
-  font-size:1.3rem;
-  line-height: 55px;
+  font-size:1.2vw;
+  line-height: 3vw;
   overflow: hidden;
   position: relative;
   

@@ -160,8 +160,8 @@ transform: translateY(-50%);
 
 #PortfolioLI {
     position: absolute;
-  border: solid gold;
-  left:116%;
-  top: 140%;
+  /* border: solid gold; */
+  left:138%;
+  top: 124%;
 }
 

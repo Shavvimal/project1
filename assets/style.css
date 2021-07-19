@@ -81,8 +81,8 @@ section.slide1 span{
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+
+
 
 }
 
@@ -129,39 +129,49 @@ section.slide1 span{
 }
 
 #lordicons {
-
 position: absolute;
 -webkit-transform: translateY(-50%);
 -ms-transform: translateY(-50%);
 transform: translateY(-50%);
-
 }
 
 #AboutMeLI {
   position: absolute;
   /* border: solid gold; */
-  left:150%;
-  top: 230%;
+  left:16.4vw;
+  top: 47.7vh;
 }
 
 #ContactLI {
   position: absolute;
   /* border: solid gold; */
-  left:283%;
-  top: 260%;
+  left:31.35vw;
+  top: 53.7vh;
 }
 
 #StackLI {
   position: absolute;
   /* border: solid gold; */
-  left:102%;
-  top: 337%;
+  left:11.35vw;
+  top: 69.3vh;
 }
 
 #PortfolioLI {
-    position: absolute;
+  position: absolute;
   /* border: solid gold; */
-  left:138%;
-  top: 124%;
+  left:15.1vw;
+  top: 25.5vh;
 }
 
+.overlay {
+  position: absolute;
+z-index: 1;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+#SVG {
+  position: absolute;
+}

@@ -39,9 +39,10 @@ nav ul li{
 }
 
 
+
 section.slide1 {
   background-image: linear-gradient(to bottom right, #318aff, #b633fd);
-  
+  z-index:-1;
 
   height: 100vh;
   padding-top: 400px;
@@ -50,7 +51,7 @@ section.slide1 {
   line-height: 3vw;
   overflow: hidden;
   position: relative;
-  
+
 }
 
 section.slide1 span{
@@ -61,7 +62,7 @@ section.slide1 span{
   position: absolute;
   top:32%;
   max-width: 40vw;
-  left:3%;
+  left:5%;
 }
 
 
@@ -70,7 +71,7 @@ section.slide1 span{
   display: block;
   position: absolute;
   top: 0%;
-  right:3%;
+  right:5%;
   min-height: 100%;
   min-width: 50%;
   transform: scale(1.15);
@@ -89,7 +90,7 @@ section.slide1 span{
 #downarow{ 
   position: absolute;
   bottom: 0; 
-  left:3%;
+  left:5%;
 }
 
 .squiggle1 {
@@ -100,7 +101,7 @@ section.slide1 span{
   min-height: 100%;
   min-width: 100%;
   transform: translate(-50%, -50%);
-  
+  z-index:-1;
 
 }
 
@@ -113,7 +114,7 @@ section.slide1 span{
   min-width: 100%;
   transform: translate(-50%, -50%);
   transform: rotate(350deg);
-  
+  z-index:-1;
 }
 
 .dots {
@@ -124,6 +125,10 @@ section.slide1 span{
   min-height: 100%;
   min-width: 100%;
   transform: scale(0.7);
-  
+  z-index:-1;
+}
+
+#icon1 {
+  z-index:2;
 }
 

@@ -8,7 +8,7 @@
 let tl = gsap.timeline({delay: 1});
 tl.from('header', {duration: 0.6, ease: "power2. out", y:-69});
 tl.from('#slide-1-content-left', {duration: 0.6, ease: "power2. out", opacity:0, y:-40});
-tl.from('#illustration', {duration: 0.6, ease: "power2. out", opacity:0});
+// tl.from('#illustration', {duration: 0.6, ease: "power2. out", opacity:0});
 
 let tlb1 = gsap.timeline({repeat: 200});
 tlb1.to('#bubble1', {
@@ -22,6 +22,17 @@ tlb1.to('#bubble1', {
     ease: "power2. inout", 
 } )
 
+let tlbi1 = gsap.timeline({repeat: 200});
+tlbi1.to('#PortfolioLI', {
+    duration: 3,
+    y:15,
+    ease: "power2. inout", 
+} );
+tlbi1.to('#PortfolioLI', {
+    duration:3,
+    y:0,
+    ease: "power2. inout", 
+} )
 
 let tlb2 = gsap.timeline({repeat: 200});
 tlb2.to('#bubble2', {
@@ -30,6 +41,18 @@ tlb2.to('#bubble2', {
     ease: "power2. inout", 
 } );
 tlb2.to('#bubble2', {
+    duration:2.3,
+    y:0,
+    ease: "power2. inout", 
+} )
+
+let tlb2i = gsap.timeline({repeat: 200});
+tlb2i.to('#AboutMeLI', {
+    duration: 2.3,
+    y:-16,
+    ease: "power2. inout", 
+} );
+tlb2i.to('#AboutMeLI', {
     duration:2.3,
     y:0,
     ease: "power2. inout", 
@@ -47,6 +70,18 @@ tlb3.to('#bubble3', {
     ease: "power2. inout", 
 } )
 
+let tlb3i = gsap.timeline({repeat: 200});
+tlb3i.to('#ContactLI', {
+    duration: 2.5,
+    y:15,
+    ease: "power2. inout", 
+} );
+tlb3i.to('#ContactLI', {
+    duration:2.5,
+    y:0,
+    ease: "power2. inout", 
+} )
+
 let tlb4 = gsap.timeline({repeat: 200});
 tlb4.to('#bubble4', {
     duration: 2,
@@ -54,6 +89,18 @@ tlb4.to('#bubble4', {
     ease: "power2. inout", 
 } );
 tlb4.to('#bubble4', {
+    duration:2,
+    y:0,
+    ease: "power2. inout", 
+} )
+
+let tlb4i = gsap.timeline({repeat: 200});
+tlb4i.to('#StackLI', {
+    duration: 2,
+    y:15,
+    ease: "power2. inout", 
+} );
+tlb4i.to('#StackLI', {
     duration:2,
     y:0,
     ease: "power2. inout", 
@@ -175,6 +222,7 @@ let tlb15 = gsap.timeline({repeat: 200, delay: 0});
 tlb15.to('#bubble15', {
     duration:0,
     y:300,
+    x: -40,
     ease: "none", 
 } )
 tlb15.to('#bubble15', {

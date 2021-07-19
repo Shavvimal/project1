@@ -42,7 +42,7 @@ nav ul li{
 
 section.slide1 {
   background-image: linear-gradient(to bottom right, #318aff, #b633fd);
-  z-index:-1;
+  z-index:0;
 
   height: 100vh;
   padding-top: 400px;
@@ -75,8 +75,8 @@ section.slide1 span{
   min-height: 100%;
   min-width: 50%;
   transform: scale(1.15);
+  }
 
-}
 #illustration svg {
   position: absolute;
   top: 50%;
@@ -128,7 +128,51 @@ section.slide1 span{
   z-index:-1;
 }
 
-#icon1 {
+#lordicons {
+
+position: absolute;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+
+}
+
+#AboutMeLI {
+  position: absolute;
+  /* border: solid gold; */
+  left:150%;
+  top: 230%;
+}
+
+#ContactLI {
+  position: absolute;
+  /* border: solid gold; */
+  left:283%;
+  top: 260%;
+}
+
+#StackLI {
+  position: absolute;
+  /* border: solid gold; */
+  left:102%;
+  top: 337%;
+}
+
+#PortfolioLI {
+    position: absolute;
+  /* border: solid gold; */
+  left:106%;
+  top: 163%;
+}
+
+#bubble1div {
   z-index:2;
+}
+
+
+
+#bubble1 {
+  /* border: solid gold; */
+  
 }
 

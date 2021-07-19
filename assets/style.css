@@ -160,19 +160,8 @@ transform: translateY(-50%);
 
 #PortfolioLI {
     position: absolute;
-  /* border: solid gold; */
-  left:106%;
-  top: 163%;
-}
-
-#bubble1div {
-  z-index:2;
-}
-
-
-
-#bubble1 {
-  /* border: solid gold; */
-  
+  border: solid gold;
+  left:116%;
+  top: 140%;
 }
 

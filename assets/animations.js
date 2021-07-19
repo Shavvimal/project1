@@ -8,7 +8,7 @@
 let tl = gsap.timeline({delay: 1});
 tl.from('header', {duration: 0.6, ease: "power2. out", y:-69});
 tl.from('#slide-1-content-left', {duration: 0.6, ease: "power2. out", opacity:0, y:-40});
-// tl.from('#illustration', {duration: 0.6, ease: "power2. out", opacity:0});
+tl.from('#illustration', {duration: 0.6, ease: "power2. out", opacity:0});
 
 let tlb1 = gsap.timeline({repeat: 200});
 tlb1.to('#bubble1', {

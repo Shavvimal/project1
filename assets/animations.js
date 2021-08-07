@@ -1,6 +1,3 @@
-
-
-
 // gsap.from('header', {duration: 0.6, ease: "power2. out", y:-69});
 // gsap.from ('#slide-1-content-left', {duration: 0.6, ease: "power2. out", opacity:0, y:-40, delay: 1})
 // gsap.from ('#illustration', {duration: 0.6, ease: "power2. out", opacity:0, delay: 1.7})
@@ -193,3 +190,15 @@ tlb15.to('#bubble15', {
     ease: "none", 
 } );
 
+// Header Scroll Trigger 
+// gsap.registerPlugin(ScrollTrigger);
+// gsap.to('header', {
+//     scrollTrigger: {
+//         trigger: '#downarow',
+//         start: "20px 80%",
+//         end: "bottom 100px",
+//         toggleActions: "restart pause reverse pause"
+//     },
+//     duration: 10, 
+//     opacity: 0
+//     });
